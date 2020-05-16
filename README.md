@@ -1,5 +1,5 @@
 # MenuController
-A great Action Menu Modal Controller inspired from iOS 13 Apple's native app implementation
+An easy-to-use Action Menu Modal Controller inspired by iOS 13 Apple's native app implementation
 
 
 [![Swift Version][swift-image]][swift-url]
@@ -25,13 +25,13 @@ A great Action Menu Modal Controller inspired from iOS 13 Apple's native app imp
 import MenuController
 
 let actions:[UIControlMenuAction] = [
-UIControlMenuAction(title: "Send Message", image: UIImage(systemName: "paperplane")!, handler: { _ in print("Sending Message") }),
-UIControlMenuAction(title: "Enable Wifi", image: UIImage(systemName: "wifi")!, handler: { _ in print("Wifi ON") }),
-UIControlMenuAction(title: "Delete", image: UIImage(systemName: "trash.fill")!, handler: { _ in print("Deleted ✅") })
+    UIControlMenuAction(title: "Send Message", image: UIImage(systemName: "paperplane")!, handler: { _ in print("Sending Message") }),
+    UIControlMenuAction(title: "Enable Wifi", image: UIImage(systemName: "wifi")!, handler: { _ in print("Wifi ON") }),
+    UIControlMenuAction(title: "Delete", image: UIImage(systemName: "trash.fill")!, handler: { _ in print("Deleted ✅") })
 ]
 
 let vc = MenuController(actions: actions)
-present(vc, animated: true, completion: nil)
+self.present(vc, animated: true, completion: nil)
 ```
 
 ## Requirements
@@ -56,7 +56,7 @@ dependencies: [
 
 [@ArAnmol](https://twitter.com/ArAnmol)
 
-[https://github.com/anmolrajpal/InteractiveModal](https://github.com/anmolrajpal/InteractiveModal)
+[https://github.com/anmolrajpal/MenuController](https://github.com/anmolrajpal/MenuControllerl)
 
 [swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
