@@ -56,7 +56,7 @@ dependencies: [
 
 [@ArAnmol](https://twitter.com/ArAnmol)
 
-[https://github.com/anmolrajpal/MenuController](https://github.com/anmolrajpal/MenuControllerl)
+[https://github.com/anmolrajpal/MenuController](https://github.com/anmolrajpal/MenuController)
 
 [swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
