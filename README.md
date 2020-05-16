@@ -8,7 +8,7 @@ A great Action Menu Modal Controller inspired from iOS 13 Apple's native app imp
 
 
 <p align="center">
-<img src="Public/menu.PNG">
+<img src="Public/menu.PNG", width=100, height=400>
 </p>
 
 
