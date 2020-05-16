@@ -8,14 +8,14 @@ A great Action Menu Modal Controller inspired from iOS 13 Apple's native app imp
 
 
 <p align="center">
-<img src="Public/menu.PNG", width=230, height=450>
+<img src="Public/menu.PNG", width=250, height=450>
 </p>
 
 
 ## Features
 
 * Supports Portrait and Landscape orientation
-* Glossy virant menu
+* Glossy vibrant dark menu 
 * Infinite Actions
 
 
