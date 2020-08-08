@@ -66,7 +66,9 @@ class UIControlMenuView: UIView {
     }
     
     
-    //MARK: Constructors
+    
+    //MARK: - View Constructors
+    
     lazy var topContainerBlurredEffectView: UIVisualEffectView = {
         let blurEffect = UIBlurEffect(style: .dark)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
@@ -129,8 +131,9 @@ class UIControlMenuView: UIView {
     
     
     
-    //MARK: Lifecycle
-    required init(headerView:UIView?, headerHeight:CGFloat) {
+    //MARK: - Lifecycle
+    
+    required init(headerView: UIView?, headerHeight: CGFloat) {
         self.customHeaderView = headerView
         self.headerHeight = headerHeight
         super.init(frame: UIScreen.main.bounds)

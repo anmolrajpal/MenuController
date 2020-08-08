@@ -9,10 +9,14 @@
 import UIKit
 
 internal class UIControlMenuController: UIViewController {
+    
     internal let actions:[UIControlMenuAction]
+    
     private(set) var subview:UIControlMenuView
+    
     internal var isScrolling:Bool = false
-    required init(headerView:UIView? = nil, headerHeight:CGFloat = 54.0, actions:[UIControlMenuAction]) {
+    
+    required init(headerView: UIView?, headerHeight: CGFloat, actions: [UIControlMenuAction]) {
         subview = UIControlMenuView(headerView: headerView, headerHeight: headerHeight)
         self.actions = actions
         super.init(nibName: nil, bundle: nil)
