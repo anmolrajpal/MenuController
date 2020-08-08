@@ -25,6 +25,7 @@ class UIControlMenuView: UIView {
         
         if let headerView = customHeaderView {
             headerContainerView.addSubview(headerView)
+            headerView.translatesAutoresizingMaskIntoConstraints = false
             headerView.topAnchor.constraint(equalTo: headerContainerView.topAnchor).isActive = true
             headerView.leftAnchor.constraint(equalTo: headerContainerView.leftAnchor).isActive = true
             headerView.bottomAnchor.constraint(equalTo: headerContainerView.bottomAnchor).isActive = true
